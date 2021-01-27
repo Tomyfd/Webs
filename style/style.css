@@ -52,13 +52,13 @@ p:hover {
 
 .star1 {
   position: fixed;
-  top: 2%;
-  right: 30%;
+  top: 7%;
+  right: 18%;
 }
 
 .star2 {
   position: fixed;
-  left: 30%;
+  left: 18%;
   top: 7%;
 }
 
@@ -172,6 +172,7 @@ hr:hover {
   background-image: url("https://wallpapercave.com/wp/wp3013836.jpg");
   position: relative;
   height: 200px;
+  width: 100%;
 
 
 }
