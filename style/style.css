@@ -51,13 +51,13 @@ p:hover {
 }
 
 .star1 {
-  position: absolute;
+  position: fixed;
   top: 2%;
   right: 30%;
 }
 
 .star2 {
-  position: absolute;
+  position: fixed;
   left: 30%;
   top: 7%;
 }
@@ -115,10 +115,6 @@ hr:hover {
   margin-top: 0px;
 }
 
-.btn {
-  color: #11999E
-}
-
 .footer-link {
   color: #11999E
 }
@@ -172,13 +168,79 @@ hr:hover {
 }
 
 .bottom-container {
-  height: 100px;
+
   background-image: url("https://wallpapercave.com/wp/wp3013836.jpg");
   position: relative;
-  top: 100px;
+  height: 200px;
+
+
 }
 
+.btn {
+  margin-top: 20px;
+
+}
+
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 20px 30px 20px 30px;
+  text-decoration: none;
+  position: relative;
+  top: 30px;
+}
+
+.btn:hover {
+  background: #330e3cb;
+  background-image: -webkit-linear-gradient(top, #330e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #330e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #330e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #330e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #330e3cb, #2bc4ad);
+  text-decoration: none;
+}
 .bth {
-  word-spacing: px;
-  color: #66BFBF;
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 20px 30px 20px 30px;
+  text-decoration: none;
+  position: relative;
+  top: 0px;
+
+}
+
+.bth:hover {
+  background: #330e3cb;
+  background-image: -webkit-linear-gradient(top, #330e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #330e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #330e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #330e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #330e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.rights{
+  position: relative;
+  top: 20%;
 }
